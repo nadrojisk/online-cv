@@ -4,7 +4,7 @@ sidebar:
 
   # Profile information
   name: Jordan Sosnowski
-  tagline: Graduate Cybersecurity Student
+  tagline: Cybersecurity Incident Response Analyst
   avatar: snowflake.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -23,25 +23,6 @@ sidebar:
     - idiom: English
       level: Native
 
-  #interests:
-  #  - item: Climbing
-  #    link:
-
-  #  - item: Snowboarding
-  #    link:
-
-  #  - item: Cooking
-  #    link:
-
-# career-profile:
-#     title: Career Profile
-#     summary: |
-#       Summarise your career here lorem ipsum dolor sit amet, consectetuer
-#       adipiscing elit. You can [download this free resume/CV template here]().
-#       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-#       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-#       Donec quam felis, ultricies nec, pellentesque eu.
-#       Second paragraph if required.
 education:
   title: Education
   info:
@@ -56,136 +37,125 @@ education:
 experiences:
   title: Experiences
   info:
+    - role: Cyber Security Operations Center Incident Response Analyst
+      time: August 2022 - Present
+      company: Pacific Northwest National Laboratory (PNNL)
+      details: |
+        - Collaborated with a multidisciplinary team of cybersecurity professionals to protect and defend PNNL's enterprise networks, coordinating regularly with Networking IT, Client IT, Cloud IT, Risk Assessment, Policy, and User Outreach teams
+        - Triaged and investigated hundreds of alerts monthly within the cybersecurity incident queue, conducting thorough analysis of potential policy violations and security threats across a complex research network environment
+        - Served as the subject matter expert for malware incidents within the Cyber Security Operations Center (CSOC), providing guidance on escalated threats and establishing analysis standards for the team
+        - Conducted in-depth malware analysis of APT-level threats, including multi-layer deobfuscation, unpacking, and decompiler-assisted code reconstruction (Binary Ninja, IDA, Ghidra) to map TTPs to MITRE ATT&CK and extract indicators of compromise
+        - Deployed and administered Assembly Line and CAPE sandbox environments to support automated malware triage and dynamic analysis at scale
+        - Developed Binary Refinery pipelines to automate IOC extraction from malicious artifacts, accelerating indicator production and triage workflows
+        - Developed and delivered Malware Analysis and Reverse Engineering training to the PNNL Cybersecurity Operations Center, improving team capability and reducing escalation time for complex threats
+        - Mentored peers across the lab on malware analysis techniques, tooling, and investigative workflows
+        - Authored malware intelligence reports disseminated across DOE national laboratories; EtherHiding/ClickFix (2025) comprised four sections — deep-dive stealer analysis, ClickFix lure analysis, EtherHiding infrastructure analysis, and enterprise threat hunting guidance; Nitrogen (2023) detailed installation vectors, persistence mechanisms, C2 behavior, and defensive recommendations
+        - Presented original malware research at MTEM 2026, sharing findings on EtherHiding and ClickFix with the broader US government security community
+        - Conducted active and passive threat hunts across enterprise endpoints and cloud environments using Microsoft Sentinel, Defender XDR, and Splunk to identify adversary activity and surface intrusions before impact
+        - Authored and tuned host-based and network-based detection rules in Microsoft Sentinel and Defender XDR; wrote Splunk SPL and KQL queries to identify suspicious activity patterns at enterprise scale
+        - Contributed to the development of PNNL CSOC's first React-based dashboard within Splunk, centralizing disparate logging sources and enabling enterprise-wide IOC searches across Splunk (SPL), Microsoft Sentinel Log Analytics (KQL), and Microsoft Defender Advanced Hunting (KQL)
+        - Engineered a Splunk dashboard for phishing investigations, consolidating over 30 panels from disparate logging sources into a single interface, significantly reducing mean time to investigate phishing incidents
+        - Engineered a Splunk dashboard for malicious file investigations, aggregating endpoint and threat intelligence data via SPL and Microsoft Defender Advanced Hunting (KQL) into a unified interface to accelerate malware triage and case analysis
+        - Developed and maintained Microsoft Defender Advanced Hunting queries and reusable KQL utility functions leveraged across the CSOC team
+        - Migrated CSOC Cortex (StrangeBee) responders from legacy scripts to containerized Docker images, improving portability, version control, and deployment consistency
+        - Designed and maintained CI/CD pipelines to automate testing and deployment of CSOC tooling and detection content, reducing manual overhead and enforcing code quality standards
+        - Led the design, development, and ongoing management of the CSOC's first AI-powered application — a full-stack Next.js frontend providing an AI chat interface backed by a FastAPI service for querying case information, playbooks, and internal code repositories
+        - Deployed and managed the application entirely via Terraform on Azure Container Apps, establishing the CSOC's first cloud-native infrastructure-as-code deployment pattern
+
+    - role: Incident Response Analyst
+      time: June 2021 - December 2021
+      company: Sandia National Laboratory
+      details: |
+        - Collaborated with a team of cybersecurity professionals to protect and defend Sandia's enterprise networks
+        - Triaged and investigated alerts within the cybersecurity incident queue, assessing scope and severity of potential threats
+        - Conducted in-depth analysis of APT-level malware samples to characterize attacker behavior and support incident response
+        - Authored a technical report on POISONPLUG detailing installation vectors, persistence mechanisms, and operational capabilities
+        - Developed detection signatures to enhance Sandia's threat detection capabilities and reduce dwell time
+
     - role: Graduate Research Assistant
-      time: September 2020 - May 2021
+      time: August 2020 - May 2021
       company: Auburn University
       details: |
-        - Worked on a multi-disciplinary team comprised of software engineers, artificial intelligence researchers, and cybersecurity engineers on continued development of an episodic network emulation tool.
-        - Primary work consisted of designing and implementing a secure network for remote login to allow researchers to work from home during COVID-19.
-        - During the development of the secure network I also created a few Ansible playbooks to help automate the process of creating users across all the boxes in the network.
-        - Additional work consisted of creating a user-friendly web application to generate network and host configuration files that dictates Galaxy how to create its images.
-    - role: Incident Response Intern
+        - Continued vehicle CAN bus analytics research in collaboration with Oak Ridge National Laboratory, focusing on optimizing the ML pipeline for deployment on resource-constrained devices such as Raspberry Pi
+        - Investigated applicability of CAN signal reverse engineering techniques to non-automotive embedded systems
+        - Maintained and extended the research codebase with a focus on portability and low-power device compatibility
+
+    - role: Graduate Intern
       time: June 2020 - August 2020
       company: Los Alamos National Laboratory
       details: |
-        - Attended classes covering the fundamentals of malware analysis including static and dynamic analysis, Windows fundamentals, common malware persistence mechanisms, x86 Assembly, anti-reverse engineering techniques, malicious office documents, PDFs, and JavaScript.
-        - Attended classes discussing memory forensics fundamentals for primarily Windows systems and used memory analysis tools such as Volatility and the Pmem suite.
-        - Attended classes focused on network archeology and learned techniques to decode custom protocols captured during packet analysis, to recognize encrypted traffic.
-        - Participated in a mock incident as a responder. I analyzed PCAPs, disk images, and memory dumps for indicators of compromise. I reversed engineered malware samples and identified artifacts that could be used to determine if other computers had been compromised.
-    - role: Intern and GRA
+        - Completed coursework in malware analysis covering static and dynamic analysis, Windows fundamentals, common persistence mechanisms, x86 Assembly, anti-reverse engineering techniques, and malicious Office documents, PDFs, and JavaScript
+        - Completed coursework in memory forensics for Windows systems, using Volatility and the Pmem suite to analyze memory artifacts
+        - Completed coursework in network archaeology, learning techniques to decode custom protocols and recognize encrypted traffic from PCAP analysis
+        - Participated in a simulated incident response exercise, analyzing PCAPs, disk images, memory dumps, and malicious binaries to reconstruct attacker activity; presented findings and recommendations to a simulated executive audience
+        - Reverse engineered malware samples and extracted forensic artifacts to support compromise assessment
+        - Decoded a custom C2 protocol embedded in a malicious sample, characterizing its capabilities and communication patterns
+
+    - role: Intern and Graduate Research Assistant
       time: May 2019 - May 2020
       company: Oak Ridge National Laboratory
       details: |
-        - Developed an efficient and accurate supervised machine learning pipeline to automatically reverse engineer information from frames transmitted over controller area networks.
-        - Created an extension of the ACTT framework that used heuristics to classify signal categories on controller area networks.
-        - Used a test-driven development software process to ensure risk-free code with all-encompassing test routines.
-        - Gave a presentation at the 2019 Summer Student Convivium discussing the progress I made on the ACTT project during my time as an intern.
-        - Co-authored a research paper on the ACTT algorithm which is currently under review.
-    - role: Graduate Student
-      time: August 2019 - Present
-      company: Auburn University
-      details: |
-        - Judas
-            - Developed a framework for backdooring 32-bit PE files for a class taught by Dr. Drew Springall.
-            - Injects either a “pop-up” message or a reverse shell but can easily be configured to take in arbitrary shellcode.
-            - Bypasses modern countermeasures such as address space layout randomization and data execution prevention.
-        - PythonIDS
-            - Developed an intrusion detection system using Python along with 3 other students for a class taught by Jason Cuneo.
-            - Detects the following attacks: NMAP SYN, ACK, and XMAS scans, Ettercap’s ARP poisoning, Metasploit’s ms17_010 psexec, and Responder’s LLMNR and NBT-NS spoofing.
-            - Uses Python’s multiprocessing module to increase the scan’s performance
-    - role: Undergraduate Research Assistant Student
+        - Developed a supervised machine learning pipeline to automate reverse engineering of Controller Area Network (CAN) signals across vehicle makes and models, achieving an F1 score of 0.92
+        - Extended the framework with heuristic-based signal classification to categorize signal types without ground-truth labels
+        - Applied test-driven development practices throughout, ensuring correctness and maintainability of the research codebase
+        - Presented research progress at the 2019 Summer Student Convivium
+
+    - role: Undergraduate Researcher
       time: January 2018 - May 2019
       company: Auburn University
       details: |
-        - Performed open-source intelligence research on integrated missile defense systems used by the United States Army.
-        - Attended design meetings to build a low power and visibility reconnaissance pod with mesh network capabilities.
-        - Performed open-source intelligence research on friendly tracking networks and attempted to find weak points in the existing infrastructure.
+        - Conducted OSINT research on integrated missile defense systems and the military's Blue Force Tracking System under contract with the US Army through Auburn's Cyber Research Center
+        - Investigated potential attack surfaces and contributed to classified threat assessments; project details are For Official Use Only
+        - Developed research skills including literature review, structured analysis, and technical reporting in a formal academic research environment
+
     - role: Software Engineering Co-Op
-      time: August to December 2016 - May to August 2017
+      time: August 2016 - December 2016, August 2017 - December 2017
       company: Rheem Manufacturing Co.
       details: |
-        - Developer
-            - Programmed heavily in Python, SQL, JSP/Bootstrap, and occasionally JavaScript while utilizing a proprietary SDLC that was very similar to Agile.
-            - Participated in various design meetings to gather requirements for multiple projects on Rheem’s web-based quality management system, Reliance, and developed code for said projects.
-            - Rebuilt the Production Part Approval Process (PPAP) application by streamlining the user interface, enhancing user experience while also drastically bringing down the run time and code complexity for reports for this application.
-            - Developed a process, that had never been used before at Rheem, to convert old PPAP data into a new form.
-            - Developed a script that leveraged multiple SQL queries to generate a monthly summary of supplier metrics which resulted in a 78% decrease in time to compile ratings.
-            - Developed a software system that allowed several users to collaboratively edit and approve Service Note documents which prevented said documents from getting lost and allowed all parties to provide input.
-            - Streamlined a manual contract management process and provided visibility of contract approval timelines and expiration dates.
-        - Reliance System Administrator
-            - Helped users with system-related issues.
-            - Conducted form and application training for cross-functional teams.
-            - Authorized user access to specific parts of Reliance depending on their specific clearances.
-    - role: Ethical Hacking Club President
-      time: August 2018 to May 2020
-      company: Auburn University
+        - Developed software features for Rheem's internal quality division web application (Reliance), contributing across two co-op terms
+        - Built a Python-based supplier metrics reporting module that automated previously manual Excel workflows, reducing report generation time by 78% and enabling automated supplier notifications for unsatisfactory performance
+        - Optimized an existing monthly metrics calculation program, reducing runtime from minutes or hours to seconds
+        - Assumed sole ownership of a critical PPAP workflow application mid-project following an unplanned team departure, delivering a full revamp and migrating thousands of legacy PPAP records to the new system
+        - Provided help desk support for employee account and application issues across both terms
+
+extracurricular:
+  title: Extracurricular
+  info:
+    - role: President &amp; Mentor
+      time: August 2018 - May 2021
+      company: Ethical Hacking Club — Auburn University
       details: |
-        - Participated in multiple Capture the Flag competitions run by various companies and universities.
-        - Taught lectures on binary reverse engineering and binary exploitation.
-        - AUCTF19
-            - One of two club members hosting the event.
-            - Created challenges for the cryptography, forensics, password cracking, reverse engineering, binary exploitation, and password cracking categories.
-            - AUEHC’s first private CTF.
-            - 20 participants with 57 challenges.
-            - Acquired funding for the top five students to attend DEFCON 27 free of charge.
-        - AUBURNHACK’s 2020s mini-CTF
-            - One of five club members hosting the event.
-            - Created challenges for the reverse engineering and binary exploitation categories.
-            - 60 participants with 37 challenges
-        - Cyber Fire Puzzles
-            - Worked with Auburn University / Los Alamos National Laboratory Security Sciences Institute to host the event.
-            - 45 participants.
-        - AUCTF20
-            - One of seven club members hosting the event.
-            - Created challenges for the reverse engineering and binary exploitation categories.
-            - Worked with Auburn University to ensure that the CTF was publicly accessible and secure.
-            - AUEHC’s first public CTF.
-            - Almost 3000 participants with 81 challenges.
-            - Acquired $300 for each of the top three students.
-# projects:
-#     title: Projects
-#     intro: >
-#       You can list your side projects or open-source libraries in this
-#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-#     assignments:
-#       - title: DevStudio
-#         link: "#"
-#         tagline: "A responsive website template designed to help web developers/designers market their services."
+        - Participated in multiple CTF competitions run by various companies and universities
+        - Taught lectures on binary reverse engineering and binary exploitation
+        - Invited by Auburn University faculty to deliver guest lectures on reverse engineering techniques to undergraduate and graduate students
+        - AUCTF19 — Co-hosted AUEHC's first private CTF (57 challenges, 20 participants); created challenges across cryptography, forensics, password cracking, reverse engineering, and binary exploitation; secured funding for top 5 students to attend DEFCON 27
+        - AuburnHack 2020 Mini-CTF — Co-hosted with 5 club members (37 challenges, 60 participants); created reverse engineering and binary exploitation challenges
+        - Cyber Fire Puzzles — Co-hosted with Auburn University and Los Alamos National Laboratory Security Sciences Institute (45 participants)
+        - AUCTF20 — Co-hosted AUEHC's first public CTF (81 challenges, ~3,000 participants); created reverse engineering and binary exploitation challenges; secured $300 prizes for each of the top 3 students
 
-#       - title: Tempo
-#         link: "#"
-#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+certifications:
+  title: Certifications
+  list:
+    - name: CompTIA Security+
+      details: Expires March 2027
 
-#       - title: Atom
-#         link: "#"
-#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+awards:
+  title: Awards &amp; Honors
+  list:
+    - name: CyberCorps&#58; Scholarship for Service
+      details: 2018 - 2021
+    - name: SANS FOR610 Challenge Coin
+      details: First place in the course CTF (July 2021)
 
-#       - title: Delta
-#         link: "#"
-#         tagline: "A responsive Bootstrap one-page theme designed to help app developers promote their mobile apps"
-
-# publications:
-#     title: Publications
-#     intro: |
-#       You can list your publications in this section. Lorem ipsum dolor sit
-#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-#       bibendum fringilla a eu lectus.
-#     papers:
-#       - title: The Art of Computer Programming
-#         link: "#"
-#         authors: Donald E. Knuth
-#         conference: Addison-Wesley, 1968
-
-#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-#         link: "#"
-#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-#       - title: A syntax directed compiler for Algol 60
-#         link: "#"
-#         authors: Edgar T. Irons
-#         conference: "Comm. ACM 4 (1961), 51–55"
+publications:
+  title: Publications
+  intro: |
+    Peer-reviewed research contributions.
+  papers:
+    - title: "CAN-D: A Modular Four-Step Pipeline for Comprehensively Decoding Controller Area Network Data"
+      link: "#"
+      authors: Co-author
+      conference: IEEE Transactions on Vehicular Technology, June 2021
 
 skills:
   title: Skills &amp; Proficiency
@@ -194,19 +164,31 @@ skills:
     - name: Python
       level: 100%
 
-    - name: IDA
+    - name: Splunk / SPL
+      level: 95%
+
+    - name: Microsoft Sentinel / KQL
+      level: 95%
+
+    - name: Binary Ninja / IDA / Ghidra
       level: 90%
 
-    - name: Ghidra
+    - name: x86 and x86-64 Assembly
       level: 85%
 
-    - name: C
+    - name: Volatility / Pmem Suite
       level: 80%
 
-    - name: x86 and x86-64 Assembly
+    - name: Docker / Terraform / Ansible
       level: 80%
 
-    - name: Volatility and Pmem Suite
+    - name: C / C++ / Rust
+      level: 75%
+
+    - name: MITRE ATT&CK
+      level: 90%
+
+    - name: Azure Cloud
       level: 75%
 
 footer: >
