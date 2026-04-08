@@ -1,37 +1,37 @@
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want an education in the main section instead of in the sidebar
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want an education in the main section instead of in the sidebar
 
-    # Profile information
-    name: Jordan Sosnowski
-    tagline: Graduate Cybersecurity Student
-    avatar: snowflake.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Jordan Sosnowski
+  tagline: Graduate Cybersecurity Student
+  avatar: snowflake.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: jordan.sosnowski@pm.me
-    website: blog.nadrojisk.com #do not add http://
-    linkedin: nadrojisk
-    github: nadrojisk
-    gitlab: 
-    bitbucket:
-    twitter: '@nadrojisk'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+  # Sidebar links
+  email: jordan.sosnowski@pm.me
+  website: blog.nadrojisk.com #do not add http://
+  linkedin: nadrojisk
+  github: nadrojisk
+  gitlab:
+  bitbucket:
+  twitter: '@nadrojisk'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: English
-        level: Native
+  languages:
+    - idiom: English
+      level: Native
 
-    #interests:
-    #  - item: Climbing
-    #    link:
+  #interests:
+  #  - item: Climbing
+  #    link:
 
-    #  - item: Snowboarding
-    #    link:
+  #  - item: Snowboarding
+  #    link:
 
-    #  - item: Cooking
-    #    link:
+  #  - item: Cooking
+  #    link:
 
 # career-profile:
 #     title: Career Profile
@@ -43,29 +43,19 @@ sidebar:
 #       Donec quam felis, ultricies nec, pellentesque eu.
 #       Second paragraph if required.
 education:
+  title: Education
+  info:
     - degree: Master of Cybersecurity Engineering
       university: Auburn University
       time: 2019 - 2021
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
     - degree: Bachelor of Software Engineering
       university: Auburn University
       time: 2015 - 2019
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
 experiences:
+  title: Experiences
+  info:
     - role: Graduate Research Assistant
       time: September 2020 - May 2021
       company: Auburn University
@@ -76,7 +66,7 @@ experiences:
         - Additional work consisted of creating a user-friendly web application to generate network and host configuration files that dictates Galaxy how to create its images.
     - role: Incident Response Intern
       time: June 2020 - August 2020
-      company: Los Alamos National Laboratory 
+      company: Los Alamos National Laboratory
       details: |
         - Attended classes covering the fundamentals of malware analysis including static and dynamic analysis, Windows fundamentals, common malware persistence mechanisms, x86 Assembly, anti-reverse engineering techniques, malicious office documents, PDFs, and JavaScript.
         - Attended classes discussing memory forensics fundamentals for primarily Windows systems and used memory analysis tools such as Volatility and the Pmem suite.
@@ -127,31 +117,31 @@ experiences:
             - Conducted form and application training for cross-functional teams.
             - Authorized user access to specific parts of Reliance depending on their specific clearances.
     - role: Ethical Hacking Club President
-      time: August 2018 to May 2020 
+      time: August 2018 to May 2020
       company: Auburn University
       details: |
-            - Participated in multiple Capture the Flag competitions run by various companies and universities.
-            - Taught lectures on binary reverse engineering and binary exploitation.
-            - AUCTF19
-                - One of two club members hosting the event.
-                - Created challenges for the cryptography, forensics, password cracking, reverse engineering, binary exploitation, and password cracking categories.
-                - AUEHC’s first private CTF.
-                - 20 participants with 57 challenges.
-                - Acquired funding for the top five students to attend DEFCON 27 free of charge.
-            - AUBURNHACK’s 2020s mini-CTF
-                - One of five club members hosting the event.
-                - Created challenges for the reverse engineering and binary exploitation categories.
-                - 60 participants with 37 challenges
-            - Cyber Fire Puzzles
-                - Worked with Auburn University / Los Alamos National Laboratory Security Sciences Institute to host the event.
-                - 45 participants.
-            - AUCTF20
-                - One of seven club members hosting the event.
-                - Created challenges for the reverse engineering and binary exploitation categories.
-                - Worked with Auburn University to ensure that the CTF was publicly accessible and secure.
-                - AUEHC’s first public CTF.
-                - Almost 3000 participants with 81 challenges.
-                - Acquired $300 for each of the top three students.
+        - Participated in multiple Capture the Flag competitions run by various companies and universities.
+        - Taught lectures on binary reverse engineering and binary exploitation.
+        - AUCTF19
+            - One of two club members hosting the event.
+            - Created challenges for the cryptography, forensics, password cracking, reverse engineering, binary exploitation, and password cracking categories.
+            - AUEHC’s first private CTF.
+            - 20 participants with 57 challenges.
+            - Acquired funding for the top five students to attend DEFCON 27 free of charge.
+        - AUBURNHACK’s 2020s mini-CTF
+            - One of five club members hosting the event.
+            - Created challenges for the reverse engineering and binary exploitation categories.
+            - 60 participants with 37 challenges
+        - Cyber Fire Puzzles
+            - Worked with Auburn University / Los Alamos National Laboratory Security Sciences Institute to host the event.
+            - 45 participants.
+        - AUCTF20
+            - One of seven club members hosting the event.
+            - Created challenges for the reverse engineering and binary exploitation categories.
+            - Worked with Auburn University to ensure that the CTF was publicly accessible and secure.
+            - AUEHC’s first public CTF.
+            - Almost 3000 participants with 81 challenges.
+            - Acquired $300 for each of the top three students.
 # projects:
 #     title: Projects
 #     intro: >
@@ -198,26 +188,26 @@ experiences:
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python 
-        level: 100%
+  toolset:
+    - name: Python
+      level: 100%
 
-      - name: IDA
-        level: 90%
+    - name: IDA
+      level: 90%
 
-      - name: Ghidra
-        level: 85%
-        
-      - name: C
-        level: 80%
+    - name: Ghidra
+      level: 85%
 
-      - name: x86 and x86-64 Assembly
-        level: 80%
+    - name: C
+      level: 80%
 
-      - name: Volatility and Pmem Suite
-        level: 75%
+    - name: x86 and x86-64 Assembly
+      level: 80%
+
+    - name: Volatility and Pmem Suite
+      level: 75%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
