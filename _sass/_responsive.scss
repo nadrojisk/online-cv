@@ -57,8 +57,18 @@
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .main-wrapper {
+    padding: 70px;
+  }
 }
 
-/* Ex-Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
+  body {
+    padding: 40px;
+  }
+
+  .main-wrapper {
+    padding: 80px;
+  }
 }
