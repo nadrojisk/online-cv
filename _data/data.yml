@@ -45,26 +45,26 @@ education:
 experiences:
   title: Experiences
   info:
-    - role: Cyber Security Operations Center Incident Response Analyst
+    - role: Incident Response Analyst
       time: August 2022 - Present
       company: Pacific Northwest National Laboratory (PNNL)
       details: |
         - Served as the subject matter expert for malware incidents within the Cyber Security Operations Center (CSOC), providing guidance on escalated threats and establishing analysis standards for the team
         - Authored malware intelligence reports disseminated across DOE national laboratories; EtherHiding/ClickFix (2025) comprised four sections — deep-dive stealer analysis, ClickFix lure analysis, EtherHiding infrastructure analysis, and enterprise threat hunting guidance; Nitrogen (2023) detailed installation vectors, persistence mechanisms, command and control behavior, and defensive recommendations
         - Presented original malware research at MTEM 2026, sharing findings on EtherHiding and ClickFix with the broader US government security community
-        - Conducted in-depth malware analysis of APT-level threats, including multi-layer deobfuscation, unpacking, and decompiler-assisted code reconstruction (Binary Ninja, IDA, Ghidra) to map TTPs to MITRE ATT&CK and extract indicators of compromise
+        - Conducted in-depth malware analysis of APT-level threats, including multi-layer deobfuscation, unpacking, and decompiler-assisted code reconstruction to map TTPs to MITRE ATT&CK and extract indicators of compromise
         - Deployed and administered Assembly Line and CAPE sandbox environments to support automated malware triage and dynamic analysis at scale
         - Developed Binary Refinery pipelines to automate IOC extraction from malicious artifacts, accelerating indicator production and triage workflows
-        - Conducted active and passive threat hunts across enterprise endpoints and cloud environments using Microsoft Sentinel, Defender XDR, and Splunk to identify adversary activity and surface intrusions before impact
-        - Authored and tuned host-based and network-based detection rules in Microsoft Sentinel and Defender XDR; wrote Splunk SPL and KQL queries to identify suspicious activity patterns at enterprise scale
+        - Conducted active and passive threat hunts across enterprise endpoints and cloud environments using Microsoft Sentinel, Defender XDR using Microsoft's Kusto Query Language (KQL), and Splunk's search processing language (SPL) to identify adversary activity and surface intrusions before impact
+        - Authored and tuned host-based and network-based detection rules in utilizing KQL, SPL and custom Splunk Commands to identify suspicious activity patterns at enterprise scale
         - Developed and delivered Malware Analysis and Reverse Engineering training to the PNNL Cybersecurity Operations Center, improving team capability and reducing escalation time for complex threats
         - Mentored peers across the lab on malware analysis techniques, tooling, and investigative workflows
         - Triaged and investigated hundreds of alerts monthly within the cybersecurity incident queue, conducting thorough analysis of potential policy violations and security threats across PNNL's networks
         - Collaborated with a multidisciplinary team of cybersecurity professionals to protect and defend PNNL's enterprise networks, coordinating across IT, risk, policy, and user outreach teams
         - Contributed to the development of PNNL CSOC's first React-based dashboard within Splunk, centralizing disparate logging sources and enabling enterprise-wide indicator searches across Splunk, Microsoft Sentinel, and Microsoft Defender Advanced Hunting
-        - Engineered a Splunk dashboard for phishing investigations, consolidating over 30 panels into a unified interface and significantly reducing mean time to investigate
+        - Engineered a Splunk dashboard for phishing investigations, consolidating disparate logging sources into a unified interface and significantly reducing mean time to investigate
         - Engineered a Splunk dashboard for malicious file investigations, aggregating endpoint and threat intelligence data into a unified interface to accelerate malware triage and case analysis
-        - Developed and maintained Microsoft Defender Advanced Hunting queries and reusable KQL utility functions leveraged across the CSOC team
+        - Developed and maintained KQL queries and utility functions leveraged across the CSOC team
         - Migrated CSOC Cortex (StrangeBee) responders from legacy scripts to containerized Docker images, improving portability, version control, and deployment consistency
         - Designed and maintained CI/CD pipelines to automate testing and deployment of CSOC tooling and detection content, reducing manual overhead and enforcing code quality standards
         - Led the design, development, and ongoing management of the CSOC's first AI-powered application — a Next.js frontend with an AI chat interface backed by a FastAPI service for querying case information, playbooks, and internal code repositories
