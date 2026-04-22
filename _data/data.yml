@@ -14,7 +14,7 @@ sidebar:
   github: nadrojisk
   gitlab:
   bitbucket:
-  twitter:
+  twitter: nadrojisk
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -22,6 +22,14 @@ sidebar:
   languages:
     - idiom: English
       level: Native
+
+training:
+  title: Training
+  info:
+    - name: SANS FOR610
+      description: Reverse-Engineering Malware&#58; Malware Analysis Tools and Techniques
+    - name: SANS FOR710
+      description: Reverse-Engineering Malware&#58; Advanced Code Analysis
 
 education:
   title: Education
