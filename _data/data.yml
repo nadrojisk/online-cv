@@ -137,7 +137,9 @@ certifications:
   title: Certifications
   list:
     - name: CompTIA Security+
-      details: Expires March 2027
+      start: Expires March 2027
+      credentialurl: www.certmetrics.com/comptia/public/verification.aspx?code=CEYL0DB968P0FF9H
+      credentialname: Verify
 
 awards:
   title: Awards &amp; Honors
@@ -149,13 +151,86 @@ awards:
 
 publications:
   title: Publications
-  intro: |
-    Peer-reviewed research contributions.
   papers:
     - title: 'CAN-D: A Modular Four-Step Pipeline for Comprehensively Decoding Controller Area Network Data'
-      link: '#'
       authors: Co-author
       conference: IEEE Transactions on Vehicular Technology, June 2021
+      link: 'https://ieeexplore.ieee.org/document/9466242'
+
+skills:
+  title: Skills &amp; Proficiency
+
+  toolset:
+    - category: Static Analysis
+      skills:
+        - name: PE-bear
+        - name: PEStudio
+        - name: Malcat
+        - name: Binary Refinery
+        - name: CyberChef
+        - name: JavaScript Deobfuscation
+        - name: PowerShell Deobfuscation
+        - name: C# Deobfuscation
+
+    - category: Dynamic Analysis
+      skills:
+        - name: x64dbg
+        - name: Fiddler Proxy
+        - name: Mitmproxy
+        - name: GDB
+        - name: CAPE
+        - name: Assembly Line
+        - name: Wireshark
+
+    - category: Reverse Engineering
+      skills:
+        - name: Binary Ninja
+        - name: IDA Pro
+        - name: Ghidra
+        - name: DNSpy
+
+    - category: Detection Engineering & Threat Intel
+      skills:
+        - name: Yara
+        - name: Splunk
+        - name: Microsoft Sentinel
+        - name: Microsoft Defender Advanced Hunting
+        - name: MITRE ATT&CK
+        - name: TheHive (StrangeBee)
+        - name: Cortex (StrangeBee)
+        - name: VirusTotal
+        - name: Shodan
+
+    - category: Systems & Architecture
+      skills:
+        - name: x86 Assembly
+        - name: x86-64 Assembly
+        - name: ARM (Basic)
+        - name: Windows Internals
+        - name: Linux Administration
+
+    - category: Programming
+      skills:
+        - name: Python
+        - name: C
+        - name: C++
+        - name: Rust
+        - name: Bash
+        - name: PowerShell
+        - name: JavaScript
+
+    - category: Infrastructure & DevOps
+      skills:
+        - name: Docker
+        - name: Ansible
+        - name: Terraform
+        - name: Azure Cloud
+        - name: GitLab Pipelines
+        - name: GitHub Workflows
+        - name: Traefik
+        - name: Nginx
+        - name: VMware Workstation
+        - name: Git
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

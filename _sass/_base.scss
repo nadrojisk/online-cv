@@ -44,10 +44,29 @@ p {
   @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
 }
 
+.dark-mode-toggle {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+  z-index: 10;
+  &:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+
 .sidebar-wrapper {
   grid-column: span 3;
   order: $sidebar-order;
   background: $theme-color;
+  position: relative;
   color: #fff;
   a {
     color: #fff;
@@ -195,6 +214,7 @@ p {
   .job-title,
   .degree,
   .cert-title,
+  .pub-title,
   .recommendation-person {
     color: $text-color;
     font-size: 16px;
@@ -204,8 +224,7 @@ p {
     flex: 75%;
   }
 
-  .time,
-  .cert-url {
+  .time {
     position: absolute;
     right: 0;
     top: 0;
@@ -255,6 +274,11 @@ p {
     color: $text-grey;
     margin-bottom: 1px;
   }
+  .publication-meta {
+    color: $text-grey;
+    font-size: 13px;
+    margin-bottom: 1px;
+  }
   .publications-section {
     .intro {
       margin-bottom: 30px;
@@ -269,6 +293,24 @@ p {
   .item {
     margin-bottom: 15px;
     overflow: hidden;
+  }
+  .skill-category {
+    margin-bottom: 15px;
+    .category-title {
+      font-size: 14px;
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
+    .skill-list {
+      list-style: disc;
+      padding-left: 20px;
+      margin-bottom: 0;
+      li {
+        font-size: 14px;
+        margin-bottom: 4px;
+      }
+    }
   }
   .level-title {
     font-size: 14px;

@@ -14,32 +14,28 @@
       <div class="upper-row">
         <h3 class="cert-title">{{ certifications.name }}</h3>
         <div class="time">
-          {{ certifications.start }} {% if certifications.end %} - {{
-          certifications.end }} {% endif %}
+          {{ certifications.start }} {% if certifications.end %} - {{ certifications.end }} {% endif %}
+          {% if certifications.credentialurl %}
+          &middot; <a href="//{{ certifications.credentialurl }}" target="_blank" rel="noreferrer nofollow noopener">{{ certifications.credentialname }}</a>
+          {% endif %}
         </div>
       </div>
       <!--//upper-row-->
 
+      {% if certifications.organization %}
       <div class="second-upper-row">
         <div class="cert-org">
           {{ certifications.organization }} {% if certifications.credentialid %}
           ({{ certifications.credentialid }}) {% endif %}
         </div>
-        {% if certifications.credentialurl %}
-        <div class="cert-url">
-          <a
-            href="//{{ certifications.credentialurl }}"
-            target="_blank"
-            rel="noreferrer nofollow noopener"
-            >{{ certifications.credentialname }}</a
-          >
-        </div>
-        {% endif %}
       </div>
+      {% endif %}
     </div>
     <!--//meta-->
 
+    {% if certifications.details %}
     <div class="details">{{ certifications.details | markdownify }}</div>
+    {% endif %}
   </div>
   <!--//item-->
   {% endfor %}
