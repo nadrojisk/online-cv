@@ -14,7 +14,7 @@ sidebar:
   github: nadrojisk
   gitlab:
   bitbucket:
-  twitter: '@nadrojisk'
+  twitter:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -152,8 +152,8 @@ publications:
   intro: |
     Peer-reviewed research contributions.
   papers:
-    - title: "CAN-D: A Modular Four-Step Pipeline for Comprehensively Decoding Controller Area Network Data"
-      link: "#"
+    - title: 'CAN-D: A Modular Four-Step Pipeline for Comprehensively Decoding Controller Area Network Data'
+      link: '#'
       authors: Co-author
       conference: IEEE Transactions on Vehicular Technology, June 2021
 
