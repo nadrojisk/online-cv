@@ -4,7 +4,7 @@ sidebar:
 
   # Profile information
   name: Jordan Sosnowski
-  tagline: Cybersecurity Incident Response Analyst
+  tagline: Malware Analyst &amp; Researcher | Threat Intelligence
   avatar: snowflake.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -126,21 +126,6 @@ experiences:
         - Assumed sole ownership of a critical PPAP workflow application mid-project following an unplanned team departure, delivering a full revamp and migrating thousands of legacy PPAP records to the new system
         - Provided help desk support for employee account and application issues across both terms
 
-extracurricular:
-  title: Extracurricular
-  info:
-    - role: President &amp; Mentor
-      time: August 2018 - May 2021
-      company: Ethical Hacking Club — Auburn University
-      details: |
-        - Participated in multiple CTF competitions run by various companies and universities
-        - Taught lectures on binary reverse engineering and binary exploitation
-        - Invited by Auburn University faculty to deliver guest lectures on reverse engineering techniques to undergraduate and graduate students
-        - AUCTF19 — Co-hosted AUEHC's first private CTF (57 challenges, 20 participants); created challenges across cryptography, forensics, password cracking, reverse engineering, and binary exploitation; secured funding for top 5 students to attend DEFCON 27
-        - AuburnHack 2020 Mini-CTF — Co-hosted with 5 club members (37 challenges, 60 participants); created reverse engineering and binary exploitation challenges
-        - Cyber Fire Puzzles — Co-hosted with Auburn University and Los Alamos National Laboratory Security Sciences Institute (45 participants)
-        - AUCTF20 — Co-hosted AUEHC's first public CTF (81 challenges, ~3,000 participants); created reverse engineering and binary exploitation challenges; secured $300 prizes for each of the top 3 students
-
 certifications:
   title: Certifications
   list:
@@ -153,7 +138,7 @@ awards:
   title: Awards &amp; Honors
   list:
     - name: CyberCorps&#58; Scholarship for Service
-      details: 2018 - 2021
+      details: 2019 - 2021
     - name: SANS FOR610 Challenge Coin
       details: First place in the course CTF (July 2021)
 
@@ -164,6 +149,34 @@ publications:
       authors: Co-author
       conference: IEEE Transactions on Vehicular Technology, June 2021
       link: 'https://ieeexplore.ieee.org/document/9466242'
+
+extracurricular:
+  title: Extracurricular
+  info:
+    - role: Guest Lecturer
+      time: December 2025
+      company: Auburn University
+      details: |
+        - Invited by Auburn University faculty to deliver a guest lecture on reverse engineering techniques to undergraduate and graduate students
+        - Presented original malware research on ClickFix, EtherHiding, and Vidar Stealer
+
+    - role: Guest Lecturer
+      time: November 2024
+      company: Auburn University
+      details: |
+        - Invited by Auburn University faculty to deliver a guest lecture on reverse engineering techniques to undergraduate and graduate students
+        - Presented original malware research on Nitrogen C2
+
+    - role: President &amp; Mentor
+      time: August 2018 - May 2021
+      company: Ethical Hacking Club — Auburn University
+      details: |
+        - Participated in multiple CTF competitions run by various companies and universities
+        - Taught lectures on binary reverse engineering and binary exploitation
+        - [AUCTF19](https://github.com/auehc/AUCTF-2019/tree/master) — Co-hosted AUEHC's first private CTF (57 challenges, 20 participants); created challenges across cryptography, forensics, password cracking, reverse engineering, and binary exploitation; secured funding for top 5 students to attend DEFCON 27
+        - AuburnHack 2020 Mini-CTF — Co-hosted with 5 club members (37 challenges, 60 participants); created reverse engineering and binary exploitation challenges
+        - Cyber Fire Puzzles — Co-hosted with Auburn University and Los Alamos National Laboratory Security Sciences Institute (45 participants)
+        - [AUCTF20](https://github.com/auehc/AUCTF-2020/tree/master) — Co-hosted AUEHC's first public CTF (81 challenges, ~3,000 participants); created reverse engineering and binary exploitation challenges; secured $300 prizes for each of the top 3 students
 
 skills:
   title: Skills &amp; Proficiency
