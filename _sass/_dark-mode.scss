@@ -1,0 +1,83 @@
+/* ======= Dark Mode ======= */
+body.dark-mode {
+  background: #1e1e2e;
+  color: #a6adc8;
+
+  a {
+    color: lighten($theme-color, 15%);
+    &:hover {
+      color: lighten($theme-color, 25%);
+    }
+  }
+
+  .wrapper {
+    background: darken($theme-color, 25%);
+  }
+
+  .sidebar-wrapper {
+    background: darken($theme-color, 25%);
+  }
+
+  .main-wrapper {
+    background: #181825;
+
+    .section-title {
+      color: lighten($theme-color, 15%);
+    }
+
+    .job-title,
+    .degree,
+    .cert-title,
+    .pub-title,
+    .recommendation-person {
+      color: #cdd6f4;
+    }
+
+    .time,
+    .cert-url {
+      color: #6c7086;
+    }
+
+    .company,
+    .recommendation-role,
+    .university,
+    .cert-org {
+      color: #6c7086;
+    }
+
+    .project-title {
+      color: lighten($theme-color, 15%);
+    }
+
+    .publication-meta {
+      color: #6c7086;
+    }
+  }
+
+  .skillset {
+    .skill-category {
+      .category-title {
+        color: #cdd6f4;
+      }
+      .skill-list li {
+        color: #a6adc8;
+      }
+    }
+    .level-title {
+      color: #cdd6f4;
+    }
+    .level-bar {
+      background: #313244;
+    }
+    .level-bar-inner {
+      background: lighten($theme-color, 10%);
+    }
+  }
+
+  .dark-mode-toggle {
+    color: rgba(255, 255, 255, 0.8);
+    &:hover {
+      color: #fff;
+    }
+  }
+}
