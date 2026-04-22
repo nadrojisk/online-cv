@@ -1,0 +1,17 @@
+{% assign awards = site.data.data.awards %}
+{% if awards %}
+<div class="education-container container-block">
+
+  <h2 class="container-block-title">
+    {{ awards.title }}
+  </h2>
+
+  {% for award in awards.list %}
+  <div class="item">
+    <h4 class="degree">{{ award.name }}</h4>
+    {% if award.details %}<h5 class="meta">{{ award.details }}</h5>{% endif %}
+  </div><!--//item-->
+  {% endfor %}
+
+</div><!--//awards-container-->
+{% endif %}
