@@ -157,39 +157,5 @@ publications:
       authors: Co-author
       conference: IEEE Transactions on Vehicular Technology, June 2021
 
-skills:
-  title: Skills &amp; Proficiency
-
-  toolset:
-    - name: Python
-      level: 100%
-
-    - name: Splunk / SPL
-      level: 95%
-
-    - name: Microsoft Sentinel / KQL
-      level: 95%
-
-    - name: Binary Ninja / IDA / Ghidra
-      level: 90%
-
-    - name: x86 and x86-64 Assembly
-      level: 85%
-
-    - name: Volatility / Pmem Suite
-      level: 80%
-
-    - name: Docker / Terraform / Ansible
-      level: 80%
-
-    - name: C / C++ / Rust
-      level: 75%
-
-    - name: MITRE ATT&CK
-      level: 90%
-
-    - name: Azure Cloud
-      level: 75%
-
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
