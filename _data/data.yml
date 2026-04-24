@@ -49,26 +49,26 @@ experiences:
       time: August 2022 - Present
       company: Pacific Northwest National Laboratory (PNNL)
       details: |
-        - Served as the subject matter expert for malware incidents within the Cyber Security Operations Center (CSOC), providing guidance on escalated threats and establishing analysis standards for the team
-        - Authored malware intelligence reports disseminated across DOE national laboratories; EtherHiding/ClickFix (2025) comprised four sections — deep-dive stealer analysis, ClickFix lure analysis, EtherHiding infrastructure analysis, and enterprise threat hunting guidance; Nitrogen (2023) detailed installation vectors, persistence mechanisms, command and control behavior, and defensive recommendations
-        - Presented original malware research at MTEM 2026, sharing findings on EtherHiding and ClickFix with the broader US government security community
-        - Conducted in-depth malware analysis of APT-level threats, including multi-layer deobfuscation, unpacking, and decompiler-assisted code reconstruction to map TTPs to MITRE ATT&CK and extract indicators of compromise
+        - Serve as the subject matter expert for malware incidents within the Cyber Security Operations Center, providing guidance on escalated threats and establishing analysis standards for the team
+        - Authored malware intelligence reports disseminated to all Department of Energy national laboratories via the DOE Security Operations Center; EtherHiding/ClickFix (2025) comprised four sections — deep-dive stealer analysis, ClickFix lure analysis, EtherHiding infrastructure analysis (dead drop enumeration and Binance Smart Contract analysis), and enterprise threat hunting guidance; Nitrogen (2023) detailed installation vectors, persistence mechanisms, command and control behavior, and defensive recommendations
+        - Presented original malware research at the Malware Technical Exchange Meeting 2026, sharing findings on EtherHiding and ClickFix with the broader US government security community
+        - Conduct in-depth malware analysis of APT-level threats, including multi-layer deobfuscation, unpacking, and decompiler-assisted code reconstruction to map TTPs to MITRE ATT&CK and extract indicators of compromise
         - Deployed and administered Assembly Line and CAPE sandbox environments to support automated malware triage and dynamic analysis at scale
         - Developed Binary Refinery pipelines to automate IOC extraction from malicious artifacts, accelerating indicator production and triage workflows
-        - Conducted active and passive threat hunts across enterprise endpoints and cloud environments using Microsoft Sentinel, Defender XDR using Microsoft's Kusto Query Language (KQL), and Splunk's search processing language (SPL) to identify adversary activity and surface intrusions before impact
-        - Authored and tuned host-based and network-based detection rules in utilizing KQL, SPL and custom Splunk Commands to identify suspicious activity patterns at enterprise scale
-        - Developed and delivered Malware Analysis and Reverse Engineering training to the PNNL Cybersecurity Operations Center, improving team capability and reducing escalation time for complex threats
-        - Mentored peers across the lab on malware analysis techniques, tooling, and investigative workflows
-        - Triaged and investigated hundreds of alerts monthly within the cybersecurity incident queue, conducting thorough analysis of potential policy violations and security threats across PNNL's networks
-        - Collaborated with a multidisciplinary team of cybersecurity professionals to protect and defend PNNL's enterprise networks, coordinating across IT, risk, policy, and user outreach teams
-        - Contributed to the development of PNNL CSOC's first React-based dashboard within Splunk, centralizing disparate logging sources and enabling enterprise-wide indicator searches across Splunk, Microsoft Sentinel, and Microsoft Defender Advanced Hunting
-        - Engineered a Splunk dashboard for phishing investigations, consolidating disparate logging sources into a unified interface and significantly reducing mean time to investigate
-        - Engineered a Splunk dashboard for malicious file investigations, aggregating endpoint and threat intelligence data into a unified interface to accelerate malware triage and case analysis
-        - Developed and maintained KQL queries and utility functions leveraged across the CSOC team
-        - Migrated CSOC Cortex (StrangeBee) responders from legacy scripts to containerized Docker images, improving portability, version control, and deployment consistency
-        - Designed and maintained CI/CD pipelines to automate testing and deployment of CSOC tooling and detection content, reducing manual overhead and enforcing code quality standards
-        - Led the design, development, and ongoing management of the CSOC's first AI-powered application — a Next.js frontend with an AI chat interface backed by a FastAPI service for querying case information, playbooks, and internal code repositories
-        - Deployed and managed the application entirely via Terraform on Azure Container Apps, establishing the CSOC's first cloud-native infrastructure-as-code deployment pattern
+        - Conduct active and passive threat hunts across enterprise endpoints and cloud environments using Microsoft Sentinel, Defender XDR using Microsoft's Kusto Query Language (KQL), and Splunk's search processing language (SPL) to identify adversary activity and surface intrusions before impact
+        - Author and tune host-based and network-based detection rules in utilizing KQL, SPL and custom Splunk Commands to identify suspicious activity patterns at enterprise scale
+        - Developed and delivered Malware Analysis and Reverse Engineering training to all 15 analysts in PNNL's Cyber Security Operations Center, improving team capability and reducing escalation time for complex threats
+        - Mentor 5+ analysts across the lab on malware analysis techniques, tooling, and investigative workflows
+        - Triage and investigate hundreds of alerts monthly within the cybersecurity incident queue, conducting thorough analysis of potential policy violations and security threats across PNNL's networks
+        - Collaborate with a multidisciplinary team of cybersecurity professionals to protect and defend PNNL's enterprise networks, coordinating across IT, risk, policy, and user outreach teams
+        - Contributed to the development of PNNL's first React-based dashboard within Splunk, centralizing disparate logging sources and enabling enterprise-wide indicator searches across Splunk, Microsoft Sentinel, and Microsoft Defender Advanced Hunting
+        - Engineered a Splunk dashboard for phishing investigations, consolidating disparate logging sources from across Splunk and Microsoft Defender Advanced Hunting into a unified interface, reducing investigation time from hours to minutes
+        - Engineered a Splunk dashboard for malicious file investigations, aggregating endpoint and threat intelligence data into a unified interface, reducing triage time from hours to minutes
+        - Develop and maintain KQL queries and utility functions leveraged across the team
+        - Migrated Cortex (StrangeBee) responders from legacy scripts to containerized Docker images, improving portability, version control, and deployment consistency
+        - Design and maintain CI/CD pipelines to automate testing and deployment of security tooling and detection content, reducing manual overhead and enforcing code quality standards
+        - Lead the design, development, and ongoing management of the Cyber Security Operations Center's first AI-powered application — a Next.js frontend with an AI chat interface backed by a FastAPI service for querying case information, playbooks, and internal code repositories
+        - Deploy and manage the application entirely via Terraform on Azure Container Apps, establishing the CSOC's first cloud-native infrastructure-as-code deployment pattern
 
     - role: Incident Response Analyst
       time: June 2021 - December 2021
@@ -123,7 +123,7 @@ experiences:
         - Developed software features for Rheem's internal quality division web application (Reliance), contributing across two co-op terms
         - Built a Python-based supplier metrics reporting module that automated previously manual Excel workflows, reducing report generation time by 78% and enabling automated supplier notifications for unsatisfactory performance
         - Optimized an existing monthly metrics calculation program, reducing runtime from minutes or hours to seconds
-        - Assumed sole ownership of a critical PPAP workflow application mid-project following an unplanned team departure, delivering a full revamp and migrating thousands of legacy PPAP records to the new system
+        - Assumed sole ownership of a critical Production Part Approval Process workflow application mid-project following an unplanned team departure, delivering a full revamp and migrating thousands of legacy records to the new system
         - Provided help desk support for employee account and application issues across both terms
 
 certifications:
@@ -137,6 +137,8 @@ certifications:
 awards:
   title: Awards &amp; Honors
   list:
+    - name: PNNL Exceptional Contribution Award
+      details: 2025 — Recognized for malware research on EtherHiding, ClickFix, and Vidar Stealer
     - name: CyberCorps&#58; Scholarship for Service
       details: 2019 - 2021
     - name: SANS FOR610 Challenge Coin
@@ -154,18 +156,12 @@ extracurricular:
   title: Extracurricular
   info:
     - role: Guest Lecturer
-      time: December 2025
+      time: November 2024, December 2025
       company: Auburn University
       details: |
-        - Invited by Auburn University faculty to deliver a guest lecture on reverse engineering techniques to undergraduate and graduate students
-        - Presented original malware research on ClickFix, EtherHiding, and Vidar Stealer
-
-    - role: Guest Lecturer
-      time: November 2024
-      company: Auburn University
-      details: |
-        - Invited by Auburn University faculty to deliver a guest lecture on reverse engineering techniques to undergraduate and graduate students
-        - Presented original malware research on Nitrogen command and control
+        - Invited by faculty to deliver guest lectures on reverse engineering techniques to undergraduate and graduate students
+        - December 2025 — Presented original malware research on ClickFix, EtherHiding, and Vidar Stealer
+        - November 2024 — Presented original malware research on Nitrogen command and control
 
     - role: President &amp; Mentor
       time: August 2018 - May 2021
